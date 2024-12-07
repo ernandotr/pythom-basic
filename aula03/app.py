@@ -39,3 +39,13 @@ for numero in range(1, 10):
     if numero % 2 == 0:
         continue # pula os nímeros pares
     print("Número impar", numero)
+
+# map() function
+# map(function, interable)
+
+initial_values = [1000, 1500, 2000, 3000]
+print("Initial values", initial_values)
+# interest_calc = lambda value: value * 1.02
+# values_with_interest = list(map(interest_calc, initial_values))
+values_with_interest = list(map(lambda value: value * 1.02, initial_values))
+print("Values with 2% interest applied", values_with_interest)
