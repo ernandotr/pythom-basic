@@ -1,9 +1,15 @@
 import numpy as np
+import os
+# Clear the console
+os.system('cls' if os.name == 'nt' else 'clear')
 
+# Christmas Tree Pattern using NumPy
+# Create arrays for the x and y coordinates
+# and stack them to form the tree structure
 x = np.arange(7, 16)
 y = np.arange(1, 18, 2)
 z = np.column_stack((x[:: -1], y))
-# Christmas Tree Pattern
+
 print()
 for i, j in z:
     print(' ' * i + '*' * j)
