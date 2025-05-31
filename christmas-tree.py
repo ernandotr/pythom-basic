@@ -11,3 +11,5 @@ for r in range(3):
     print(' ' * 13, ' || ')
 print(' ' * 12, end= '\\======/')
 print('')
+print(' '*8, end= "Merry Christmas!") # English
+print() 
