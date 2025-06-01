@@ -19,8 +19,6 @@ for r in range(3):
 print(' ' * 12, end= '\\======/')
 print('\033[0m')  # Reset color
 print('\033[32m\033[1m')  # Bold and underline]]')
-# print(' '*8, end= "Merry Christmas!") # English
-# print() 
 
 messages = {"pt_BR": "Feliz Natal!",  # Portuguese (Brazil)
             "fr_FR": "Joyeux Noël!",  # French (France)
