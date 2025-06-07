@@ -8,7 +8,7 @@ def secure_file_delection(file_path):
         file_path (str): The path to the file to be securely deleted.
     """
     with open(file_path, 'w') as file:
-        file.write(os.urandom(1024)) # Overwrite with random data
+        file.write("TSTSTTSTTTSTSTGSSHHSJSTTATSTGGGSTT") # Overwrite with random data
     
     # Now delete the file
     os.remove(file_path)
