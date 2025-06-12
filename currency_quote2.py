@@ -14,11 +14,6 @@ def get_currency_quote():
     gbp_brl = data['GBPBRL']['bid']
     btc_brl = data['BTCBRL']['bid']
     
-    # print(f"Exchange rate from USD to BRL: {usd_brl}")
-    # print(f"Exchange rate from EUR to BRL: {eur_brl}")
-    # print(f"Exchange rate from GBP to BRL: {gbp_brl}")
-    # print(f"Exchange rate from BTC to BRL: {btc_brl}")
-
     text = f'''
     Dollar (USD) to Real (BRL): {usd_brl}
     Euro (EUR) to Real (BRL): {eur_brl}
