@@ -9,7 +9,7 @@ lbl = tk.Label(root, font=("Helvetica", 16), bg="black", fg="lime")
 lbl.pack(expand=True)
 
 def update_usage():
-    cpu_usage = psutil.cpu_percent()
+    cpu_usage = psutil.cpu_percent(interval=1)
     memory = psutil.virtual_memory().percent
     battery = psutil.sensors_battery()
     lbl.config(text=f"CPU Usage: {cpu_usage}%\nMemory Usage: {memory}%\nBattery: {battery.percent}%")
