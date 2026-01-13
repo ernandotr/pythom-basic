@@ -5,7 +5,7 @@ import numpy as np
 resolution = pyautogui.size()
 fourcc = cv2.VideoWriter_fourcc(*"CLCO")
 filename = "Recording.mp4"
-fps = 30.0
+fps = 60.0
 out = cv2.VideoWriter(filename, fourcc, fps, (resolution.width, resolution.height))
 cv2.namedWindow("Recording", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("Recording", 480, 370)
