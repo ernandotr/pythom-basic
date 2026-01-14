@@ -2,13 +2,12 @@ import calendar
 from rich.console import Console
 from rich.table import Table
 
-def display_colored_calendar(year, month):
+def display_colored_calendar(year):
     console = Console()
     months = [calendar.monthcalendar(year, m) for m in range(1, 13)]
 
     WEEK_DAYS_COLOR = "bold blue"
-    month_name = calendar.month_name[month]
-    print(months)
+    month_name = calendar.month_name[month +1]
     # Create a table for the month
     table = Table(title= f"[bold cyan]{month_name} {year}[/bold cyan]", show_lines=True)
     
@@ -30,4 +29,4 @@ def display_colored_calendar(year, month):
     console.print("\n")
 
 if __name__ == "__main__":
-    display_colored_calendar(2025, 12)
+    display_colored_calendar(2025)
