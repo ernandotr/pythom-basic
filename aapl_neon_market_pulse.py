@@ -15,4 +15,5 @@ plt.title("AAPL Market Pulse", weight="bold")
 plt.axis("off")
 plt.colorbar(sc, label="Return Intensity")
 plt.tight_layout()
+plt.show()
 
