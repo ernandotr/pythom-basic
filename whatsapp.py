@@ -3,7 +3,7 @@ import datetime
 
 now = datetime.datetime.now()
 
-phone_number = "+351934999999"  # Replace with the recipient's phone number
+phone_number = "+351934974800"  # Replace with the recipient's phone number
 
 message = ("Hello, this is a test message sent using pywhatkit!")
 
