@@ -21,4 +21,3 @@ if __name__ == "__main__":
     print("Original array:", sample_array)
     sorted_array = quickSort(sample_array)
     print("Sorted array:", sorted_array)
-    
