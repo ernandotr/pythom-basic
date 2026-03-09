@@ -21,49 +21,66 @@ if __name__ == "__main__":
     lenguage = 'pt_BR'  # Portuguese (Brazil
     lenguage2 = 'en_US'  # English (United States)
     lenguage3 = "fr_FR"  # French (France)
+    # Madarin Chinese (China) - zh_CN
+    language4 = "zh_CN"
+
     # change_voice(engine, "nl_BE", "VoiceGenderFemale")
     # engine.say("Hello World")
     # engine.runAndWait()
     # Set the language Portuguese (Brazil) and the first voice available
     # change_voice(engine, lenguage, "VoiceGenderNeuter")  # Change to Portuguese (Brazil) neuter voice
-    engine.setProperty('voice', "com.apple.eloquence.pt-BR.Sandy")  # Set to Portuguese (Brazil) voice
-    speak(engine, "Olá, este é um teste de conversão de texto em fala.")
-    speak(engine, "Como posso ajudá-lo hoje?")
-    speak(engine, "Adeus!")
-    speak(engine, "Este é um exemplo simples de conversão de texto em fala com Python.")
-    speak(engine, "Obrigado por usar este programa.")
-    speak(engine, "Tenha um ótimo dia!")
-    speak(engine, "Este é um exemplo de biblioteca pyttsx3.")
-    speak(engine, "Sinta-se à vontade para modificar o texto conforme necessário.")
-    speak(engine, "Este código foi projetado para converter texto em fala.")
-    speak(engine, "Você pode usá-lo para várias aplicações.")
+    # engine.setProperty('voice', "com.apple.eloquence.pt-BR.Sandy")  # Set to Portuguese (Brazil) voice
+    # speak(engine, "Olá, este é um teste de conversão de texto em fala.")
+    # speak(engine, "Como posso ajudá-lo hoje?")
+    # speak(engine, "Adeus!")
+    # speak(engine, "Este é um exemplo simples de conversão de texto em fala com Python.")
+    # speak(engine, "Obrigado por usar este programa.")
+    # speak(engine, "Tenha um ótimo dia!")
+    # speak(engine, "Este é um exemplo de biblioteca pyttsx3.")
+    # speak(engine, "Sinta-se à vontade para modificar o texto conforme necessário.")
+    # speak(engine, "Este código foi projetado para converter texto em fala.")
+    # speak(engine, "Você pode usá-lo para várias aplicações.")
 
     # Set the language English (United States) and the first voice available
     # change_voice(engine, lenguage2, "VoiceGenderNeuter")  # Change to English (United States) neuter voice
-    engine.setProperty('voice', "com.apple.voice.compact.en-US.Samantha")  # Set to English (United States) voice
-    speak(engine, "Hello, this is a text-to-speech conversion test.")
-    speak(engine, "How can I assist you today?")
-    speak(engine, "Goodbye!")
-    speak(engine, "This is a simple example of text-to-speech conversion with Python.")
-    speak(engine, "Thank you for using this program.")
-    speak(engine, "Have a great day!")
-    speak(engine, "This is a demonstration of the pyttsx3 library.")
-    speak(engine, "Feel free to modify the text as needed.")
-    speak(engine, "This code is designed to convert text to speech.")
-    speak(engine, "You can use it for various applications.")
+    # engine.setProperty('voice', "com.apple.voice.compact.en-US.Samantha")  # Set to English (United States) voice
+    # speak(engine, "Hello, this is a text-to-speech conversion test.")
+    # speak(engine, "How can I assist you today?")
+    # speak(engine, "Goodbye!")
+    # speak(engine, "This is a simple example of text-to-speech conversion with Python.")
+    # speak(engine, "Thank you for using this program.")
+    # speak(engine, "Have a great day!")
+    # speak(engine, "This is a demonstration of the pyttsx3 library.")
+    # speak(engine, "Feel free to modify the text as needed.")
+    # speak(engine, "This code is designed to convert text to speech.")
+    # speak(engine, "You can use it for various applications.")
 
     
     #Set the language French (France) and the first voice available
-    # change_voice(engine, lenguage3, "VoiceGenderNeuter")  # Change to French (France) neuter voice
-    engine.setProperty('voice', "com.apple.voice.compact.fr-FR.Thomas")  # Set to 
-    speak(engine, "Bonjour, ceci est un test de conversion de texte en parole.")
-    speak(engine, "Comment puis-je vous aider aujourd'hui ?")
-    speak(engine, "Au revoir !")
-    speak(engine, "Ceci est un exemple simple de conversion de texte en parole avec Python.")
-    speak(engine, "Merci d'avoir utilisé ce programme.")
-    speak(engine, "Passez une excellente journée !")
-    speak(engine, "Ceci est une démonstration de la bibliothèque pyttsx3.")
-    speak(engine, "N'hésitez pas à modifier le texte selon vos besoins.")
-    speak(engine, "Ce code est conçu pour convertir du texte en parole.")
-    speak(engine, "Vous pouvez l'utiliser pour diverses applications.")
+    # change_voice(engine, lenguage, "VoiceGenderNeuter")  # Change to French (France) neuter voice
+    # engine.setProperty('voice', "com.apple.voice.compact.fr-FR.Thomas")  # Set to 
+    # speak(engine, "Bonjour, ceci est un test de conversion de texte en parole.")
+    # speak(engine, "Comment puis-je vous aider aujourd'hui ?")
+    # speak(engine, "Au revoir !")
+    # speak(engine, "Ceci est un exemple simple de conversion de texte en parole avec Python.")
+    # speak(engine, "Merci d'avoir utilisé ce programme.")
+    # speak(engine, "Passez une excellente journée !")
+    # speak(engine, "Ceci est une démonstration de la bibliothèque pyttsx3.")
+    # speak(engine, "N'hésitez pas à modifier le texte selon vos besoins.")
+    # speak(engine, "Ce code est conçu pour convertir du texte en parole.")
+    # speak(engine, "Vous pouvez l'utiliser pour diverses applications.")
+    
+
+    # change_voice(engine, language4, "VoiceGenderNeuter")  # Change to Mandarin Chinese (China) neuter voice
+    engine.setProperty('voice', "com.apple.voice.compact.zh-CN.Tingting")  # Set to Mandarin Chinese (China) voice
+    speak(engine, "你好，这是一个文本转语音的测试。")
+    speak(engine, "今天我能为你做些什么？")
+    speak(engine, "再见！")
+    speak(engine, "这是一个使用Python进行文本转语音转换的简单示例。")
+    speak(engine, "感谢您使用这个程序。")
+    speak(engine, "祝你有美好的一天！")
+    speak(engine, "这是pyttsx3库的演示。")
+    speak(engine, "请随时根据需要修改文本。")
+    speak(engine, "此代码旨在将文本转换为语音。")
+    speak(engine, "您可以将它用于各种应用程序。")
     
